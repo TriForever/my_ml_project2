@@ -1,2 +1,2 @@
-# my_ml_project2
-ml demo
+# ml-projects-mkc
+ML projects
