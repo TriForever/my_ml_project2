@@ -4,3 +4,4 @@ pandas
 scikit-learn
 beautifulsoup4
 scikit-image
+streamlit-drawable-canvas
