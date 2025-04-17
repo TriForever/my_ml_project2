@@ -16,6 +16,7 @@ data_url_2 = get_image_html("迴歸", "./taxi.png")
 data_url_3 = get_image_html("鳶尾花", "./iris.png")
 data_url_4 = get_image_html("GoogleNews", "./google.png")
 data_url_5 = get_image_html("英文辨識", "./abc.png")
+data_url_6 = get_image_html("shippredict", "./ship.png")
 st.set_page_config(
     page_title="我的學習歷程",
     page_icon="👋",
@@ -88,6 +89,28 @@ with col3:
         - versicolor
         - virginica
         ''')
-    st.image('iris.png')
-    #st.markdown(data_url_3, unsafe_allow_html=True)
+    #st.image('iris.png')
+    st.markdown(data_url_3, unsafe_allow_html=True)
+    
+    
+    st.markdown('### [TitanicShip預測](shippredict)')
+    st.markdown('''
+    ##### 特徵(X):
+        - 出發的星球
+        - 冷凍睡眠
+        - 目的地
+        - 年齡
+        - VIP
+        - RoomService金額
+        - FoodCourt金額
+        - ShoppingMall金額
+        - Spa金額
+        - VRDeck金額
+        - Deck
+        - Cabin_num
+        - Side
+    ##### 目標：預測是否被傳送到其他維度空間
+        ''')
+    #st.image('ship.png')
+    st.markdown(data_url_6, unsafe_allow_html=True)
 
